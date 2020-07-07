@@ -5,7 +5,7 @@ Wireboi is an implementation of the [wireworld](https://en.wikipedia.org/wiki/) 
 # Getting started
 Let's simulate a wireworld computer that calculates prime numbers,
 
-+ Download latest executable for your OS (Windows/Linux) from the releases page and download [primes.png](Examples/primes.png)
++ Download latest executable for your OS (Windows/Linux) from the releases page and download [primes.png](examples/primes.png)
 + Run the executable, an open-file dialog will appear, browse and select primes.png 
 
 [More info on how the computer works](https://www.quinapalus.com/wi-index.html)
