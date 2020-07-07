@@ -1,0 +1,8 @@
+bin/*
+obj/*
+gmon.out
+profile.output
+profile_*.png
+*.AppDir/*
+*.AppImage
+
