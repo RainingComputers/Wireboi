@@ -13,7 +13,7 @@ Let's simulate a wireworld computer that calculates prime numbers,
 # Creating your own circuits
 You can create your circuits using any image editor ([GIMP](https://www.gimp.org/)) and export as `.png` file. Every pixel is one cell. See the `examples` folder.
 
-## Rules
+### Rules
 A Wireworld cell can be in one of four different states,
 
 + empty (RGB: 0, 0, 0)
@@ -32,10 +32,10 @@ Wireworld uses what is called the Moore neighborhood, which means that in the ru
 
 # User interface
 
-## Dock
+### Dock
 ![Dock](dock.png)
 
-## Keyboard
+### Keyboard
 | Action  | Key    |
 |---------|--------|
 | Pan | <kbd>↑</kbd> <kbd>←</kbd> <kbd>↓</kbd> <kbd>→</kbd> or <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> |
@@ -47,10 +47,10 @@ Wireworld uses what is called the Moore neighborhood, which means that in the ru
 | Increase speed | <kbd>.</kbd> |
 | Toggle UI overlay | <kbd>G</kbd> |
 
-## Mouse
+### Mouse
 Hold right mouse button and move to pan and scroll up/down to zoom in/out.
 
-# Installing from soure
+# Installing from source
 + Clone the repo using `git clone`
 ```
 git clone https://github.com/RainingComputers/Wireboi.git
