@@ -1,5 +1,5 @@
 # Wireboi
-![Screenshot](screenshot.gif)
+<img src="screenshot.gif" style="text-shadow: 0px 0px 4px" />
 
 Wireboi is an implementation of the [wireworld](https://en.wikipedia.org/wiki/) cellular automaton. It is written in C++ and uses SFML for graphics.
 
