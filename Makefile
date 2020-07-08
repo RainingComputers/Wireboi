@@ -109,7 +109,7 @@ appdir:
 	rm -f -r $(EXEC_NAME).AppDir/
 
 	mkdir $(EXEC_NAME).AppDir/
-	mkdir -p $(EXEC_NAME).AppDir/bin/
+	mkdir -p $(EXEC_NAME).AppDir/usr/bin/
 	mkdir -p $(EXEC_NAME).AppDir/usr/lib/
 	
 	cp AppRun $(EXEC_NAME).AppDir/AppRun
@@ -118,7 +118,7 @@ appdir:
 	cp Wireboi.desktop $(EXEC_NAME).AppDir/Wireboi.desktop
 	cp wireboi.svg $(EXEC_NAME).AppDir/Wireboi.svg
 
-	cp bin/$(BUILD_TYPE)/$(EXEC_NAME) $(EXEC_NAME).AppDir/bin/$(EXEC_NAME)
+	cp bin/$(BUILD_TYPE)/$(EXEC_NAME) $(EXEC_NAME).AppDir/usr/bin/$(EXEC_NAME)
 	
 	cp lib/$(PLATFORM)/SFML/* $(EXEC_NAME).AppDir/usr/lib/
 
