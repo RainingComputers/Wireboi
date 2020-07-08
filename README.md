@@ -1,4 +1,4 @@
-<img src="screenshot.gif" style="text-shadow: 0px 0px 4px" />
+<img src="screenshot.gif" style="box-shadow: 0px 0px 15px grey;" />
 
 Wireboi is an implementation of the [wireworld](https://en.wikipedia.org/wiki/) cellular automaton. It is written in C++ and uses SFML for graphics.
 
@@ -32,10 +32,18 @@ Wireworld uses what is called the Moore neighborhood, which means that in the ru
 
 # User interface
 
-### Dock
-![Dock](dock.png)
+#### Dock
+| Action | Dock |
+|--------|--------|
+| Zoom out | <kbd>-</kbd> |
+| Decrease speed | <kbd><<</kbd> |
+| Reset | <kbd>⟵</kbd> |
+| Play/Pause | <kbd>▶</kbd> or <kbd>❚❚</kbd>
+| Step | <kbd>↳</kbd> |
+| Increase speed | <kbd>>></kbd> |
+| Zoom in | <kbd>+</kbd> |
 
-### Keyboard
+#### Keyboard
 | Action  | Key    |
 |---------|--------|
 | Pan | <kbd>↑</kbd> <kbd>←</kbd> <kbd>↓</kbd> <kbd>→</kbd> or <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> |
@@ -47,7 +55,7 @@ Wireworld uses what is called the Moore neighborhood, which means that in the ru
 | Increase speed | <kbd>.</kbd> |
 | Toggle UI overlay | <kbd>G</kbd> |
 
-### Mouse
+#### Mouse
 Hold right mouse button and move to pan and scroll up/down to zoom in/out.
 
 # Installing from source
