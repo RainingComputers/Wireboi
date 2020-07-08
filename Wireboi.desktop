@@ -5,3 +5,4 @@ GenericName=Wireworld simulator
 Comment=Wireworld simulator
 Icon=Wireboi
 Categories=Game;LogicGame;
+Exec=wireboi
